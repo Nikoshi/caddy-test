@@ -2,7 +2,6 @@
   acme_dns inwx {
     username {env.INWX_USER}
     password {env.INWX_PASSWD}
-    endpoint_url https://ote.domrobot.com/jsonrpc/
   }
 }
 
