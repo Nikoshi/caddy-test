@@ -1,7 +1,7 @@
 {
   acme_dns inwx {
-    username {env.INWX_USER}
-    password {env.INWX_PASSWD}
+    username {$INWX_USER}
+    password {$INWX_PASSWD}
   }
 }
 
