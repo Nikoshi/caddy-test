@@ -1,3 +1,10 @@
-localhost
+{
+	acme_dns inwx {
+		username "{env.INWX_USER}"
+		password "{env.INWX_PASSWD}"
+	}
+}
+
+testdomain.squeakypa.ws
 
 reverse_proxy forgejo:3000
