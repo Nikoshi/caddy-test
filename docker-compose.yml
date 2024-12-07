@@ -2,6 +2,9 @@ services:
   caddy:
     image: registry.gitlab.com/informatiger/caddy-inwx:2.8.4-alpine
     restart: unless-stopped
+    environment: 
+      INWX_USER: ${INWX_USER}
+      INWX_PASSWD: ${INWX_PASSWD}
     networks:
       - caddy
     cap_add:
